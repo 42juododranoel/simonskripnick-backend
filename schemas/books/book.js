@@ -1,6 +1,6 @@
 export default {
-  name: 'post',
-  title: 'Post',
+  name: 'book',
+  title: 'Book',
   type: 'document',
   fieldsets: [
     {name: 'main', title: 'Main'},
@@ -13,6 +13,7 @@ export default {
       title: 'Title',
       type: 'string',
       fieldset: 'main',
+      validation: Rule => Rule.required(),
     },
     {
       name: 'slug',
@@ -25,10 +26,16 @@ export default {
 
     // Contents
     {
-      name: 'content',
-      title: 'Content',
-      type: 'editor',
+      name: 'spreads',
+      title: 'Spreads',
+      type: 'array',
       fieldset: 'contents',
+      of: [
+        {
+          title: 'Spread',
+          type: 'spread',
+        }
+      ],
     },
   ],
 }
