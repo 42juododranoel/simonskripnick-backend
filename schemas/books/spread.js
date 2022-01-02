@@ -4,11 +4,6 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'number',
-      title: 'Number',
-      type: 'number',
-    },
-    {
       name: 'firstPage',
       title: 'First page',
       type: 'reference',
@@ -19,6 +14,12 @@ export default {
       title: 'Second page',
       type: 'reference',
       to: {type: 'page'},
+    },
+    {
+      name: 'doHideNumber',
+      title: 'Hide number',
+      type: 'boolean',
+      initialValue: false,
     },
   ]
 }

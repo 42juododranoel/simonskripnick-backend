@@ -19,6 +19,7 @@ export default {
         decorators: [
           {title: 'Strong', value: 'strong'},
           {title: 'Emphasis', value: 'em'},
+          {title: 'Lead-in', value: 'lead-in'},
         ],
         annotations: [
           {
