@@ -6,6 +6,7 @@ import page from './books/page'
 import spread from './books/spread'
 import book from './books/book'
 import post from './post'
+import body from './fitness/body'
 
 export default createSchema({
   name: 'default',
@@ -15,5 +16,6 @@ export default createSchema({
     spread,
     book,
     post,
+    body,
   ]),
 })
