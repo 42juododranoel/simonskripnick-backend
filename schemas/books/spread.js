@@ -21,5 +21,17 @@ export default {
       type: 'boolean',
       initialValue: false,
     },
-  ]
+  ],
+  preview: {
+    select: {
+      firstPageTitle: 'firstPage.title',
+      secondPageTitle: 'secondPage.title',
+    },
+    prepare(selection) {
+      const {firstPageTitle, secondPageTitle} = selection
+      return {
+        title: firstPageTitle ? firstPageTitle : secondPageTitle,
+      }
+    }
+  }
 }

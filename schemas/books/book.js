@@ -34,6 +34,10 @@ export default {
         {
           title: 'Spread',
           type: 'spread',
+        },
+        {
+          title: 'Chapter',
+          type: 'chapter',
         }
       ],
     },

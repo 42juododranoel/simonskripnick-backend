@@ -4,6 +4,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import editor from './editor'
 import page from './books/page'
 import spread from './books/spread'
+import chapter from './books/chapter'
 import book from './books/book'
 import post from './post'
 import body from './fitness/body'
@@ -14,6 +15,7 @@ export default createSchema({
     editor,
     page,
     spread,
+    chapter,
     book,
     post,
     body,
