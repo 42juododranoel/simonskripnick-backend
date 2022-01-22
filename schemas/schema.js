@@ -5,9 +5,10 @@ import editor from './editor'
 import page from './books/page'
 import spread from './books/spread'
 import chapter from './books/chapter'
+import cover from './books/cover'
+import volume from './books/volume'
 import book from './books/book'
 import post from './post'
-import body from './fitness/body'
 
 export default createSchema({
   name: 'default',
@@ -16,8 +17,9 @@ export default createSchema({
     page,
     spread,
     chapter,
+    cover,
+    volume,
     book,
     post,
-    body,
   ]),
 })

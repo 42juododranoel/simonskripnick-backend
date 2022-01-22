@@ -16,10 +16,14 @@ export default {
       to: {type: 'page'},
     },
     {
-      name: 'doHideNumber',
-      title: 'Hide number',
-      type: 'boolean',
-      initialValue: false,
+      name: 'firstImage',
+      title: 'First image',
+      type: 'image',
+    },
+    {
+      name: 'secondImage',
+      title: 'Second image',
+      type: 'image',
     },
   ],
   preview: {

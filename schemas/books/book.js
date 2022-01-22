@@ -26,6 +26,30 @@ export default {
 
     // Contents
     {
+      name: 'nodes',
+      title: 'Nodes',
+      type: 'array',
+      fieldset: 'contents',
+      of: [
+        {
+          title: 'Spread',
+          type: 'spread',
+        },
+        {
+          title: 'Chapter',
+          type: 'chapter',
+        },
+        {
+          title: 'Volume',
+          type: 'volume',
+        },
+        {
+          title: 'Cover',
+          type: 'cover',
+        }
+      ],
+    },
+    {
       name: 'spreads',
       title: 'Spreads',
       type: 'array',
@@ -38,7 +62,7 @@ export default {
         {
           title: 'Chapter',
           type: 'chapter',
-        }
+        },
       ],
     },
   ],
