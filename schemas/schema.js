@@ -9,6 +9,7 @@ import cover from './books/cover'
 import volume from './books/volume'
 import book from './books/book'
 import post from './post'
+import category from './category'
 
 export default createSchema({
   name: 'default',
@@ -21,5 +22,6 @@ export default createSchema({
     volume,
     book,
     post,
+    category,
   ]),
 })

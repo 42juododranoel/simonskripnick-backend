@@ -22,6 +22,13 @@ export default {
       options: {source: 'title'},
       validation: Rule => Rule.required(),
     },
+    {
+      name: 'category',
+      title: 'Category',
+      type: 'reference',
+      fieldset: 'main',
+      to: {type: 'category'},
+    },
 
     // Contents
     {
