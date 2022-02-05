@@ -34,7 +34,7 @@ export default {
       title: 'Labels',
       type: 'array',
       fieldset: 'main',
-      of: [{type: 'label'}],
+      of: [{type: 'reference', to: [{type: 'label'}]}],
     },
     {
       name: 'description',

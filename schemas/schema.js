@@ -11,6 +11,7 @@ import book from './books/book'
 import post from './blog/post'
 import category from './blog/category'
 import label from './blog/label'
+import code from './embeds/code'
 
 export default createSchema({
   name: 'default',
@@ -25,5 +26,6 @@ export default createSchema({
     post,
     category,
     label,
+    code,
   ]),
 })

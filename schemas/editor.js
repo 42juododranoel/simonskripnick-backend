@@ -38,6 +38,11 @@ export default {
       },
     },
     {
+      name: 'code',
+      title: 'Code',
+      type: 'code',
+    },
+    {
       type: 'image',
     },
   ],
