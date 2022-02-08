@@ -42,6 +42,13 @@ export default {
       type: 'text',
       fieldset: 'main',
     },
+    {
+      name: 'publishedAt',
+      title: 'Published at',
+      type: 'datetime',
+      fieldset: 'main',
+      validation: Rule => Rule.required(),
+    },
 
     // Contents
     {
