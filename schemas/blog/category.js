@@ -20,5 +20,10 @@ export default {
       title: 'Description',
       type: 'text',
     },
+    {
+      name: 'background',
+      title: 'Background',
+      type: 'image',
+    },
   ],
 }
