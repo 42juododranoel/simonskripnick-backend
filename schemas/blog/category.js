@@ -16,6 +16,16 @@ export default {
       validation: Rule => Rule.required(),
     },
     {
+      name: 'name',
+      title: 'Name',
+      type: 'string',
+    },
+    {
+      name: 'emoji',
+      title: 'Emoji',
+      type: 'string',
+    },
+    {
       name: 'description',
       title: 'Description',
       type: 'text',
