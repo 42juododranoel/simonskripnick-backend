@@ -49,6 +49,12 @@ export default {
       fieldset: 'main',
       validation: Rule => Rule.required(),
     },
+    {
+      name: 'redirect',
+      title: 'Redirect',
+      type: 'string',
+      fieldset: 'main',
+    },
 
     // Contents
     {

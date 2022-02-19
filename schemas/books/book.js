@@ -49,21 +49,5 @@ export default {
         }
       ],
     },
-    {
-      name: 'spreads',
-      title: 'Spreads',
-      type: 'array',
-      fieldset: 'contents',
-      of: [
-        {
-          title: 'Spread',
-          type: 'spread',
-        },
-        {
-          title: 'Chapter',
-          type: 'chapter',
-        },
-      ],
-    },
   ],
 }
