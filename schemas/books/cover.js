@@ -9,9 +9,19 @@ export default {
       type: 'string',
     },
     {
+      name: 'middle',
+      title: 'Middle',
+      type: 'string',
+    },
+    {
       name: 'subtitle',
       title: 'Subtitle',
       type: 'string',
+    },
+    {
+      name: 'image',
+      title: 'Image',
+      type: 'image',
     },
   ],
   preview: {

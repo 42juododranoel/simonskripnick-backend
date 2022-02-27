@@ -4,6 +4,7 @@ export default {
   type: 'document',
   fieldsets: [
     {name: 'main', title: 'Main'},
+    {name: 'cosmetics', title: 'Cosmetics'},
     {name: 'contents', title: 'Contents'},
   ],
   fields: [
@@ -24,6 +25,25 @@ export default {
       validation: Rule => Rule.required(),
     },
 
+    // Cosmetics
+    {
+      name: 'paperColor',
+      title: 'Paper color',
+      type: 'string',
+      fieldset: 'cosmetics',
+    },
+    {
+      name: 'textColor',
+      title: 'Text color',
+      type: 'string',
+      fieldset: 'cosmetics',
+    },
+    {
+      name: 'gradientTarget',
+      title: 'Gradient target',
+      type: 'string',
+      fieldset: 'cosmetics',
+    },
     // Contents
     {
       name: 'nodes',
