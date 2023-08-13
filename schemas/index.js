@@ -1,6 +1,3 @@
-import createSchema from 'part:@sanity/base/schema-creator'
-import schemaTypes from 'all:part:@sanity/base/schema-type'
-
 import editor from './editor'
 import page from './books/page'
 import spread from './books/spread'
@@ -12,20 +9,19 @@ import post from './blog/post'
 import category from './blog/category'
 import label from './blog/label'
 import code from './embeds/code'
+import tweet from './embeds/tweet'
 
-export default createSchema({
-  name: 'default',
-  types: schemaTypes.concat([
-    editor,
-    page,
-    spread,
-    chapter,
-    cover,
-    volume,
-    book,
-    post,
-    category,
-    label,
-    code,
-  ]),
-})
+export const schemaTypes = [
+  editor,
+  page,
+  spread,
+  chapter,
+  cover,
+  volume,
+  book,
+  post,
+  category,
+  label,
+  code,
+  tweet,
+]

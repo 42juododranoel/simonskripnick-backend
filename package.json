@@ -7,23 +7,31 @@
   "author": "Vsevolod Skripnik <vsevolod_skripnik@protonmail.com>",
   "license": "UNLICENSED",
   "scripts": {
+    "dev": "sanity dev",
     "start": "sanity start",
+    "install": "sanity install",
+    "test": "sanity check",
     "build": "sanity build"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^2.23.2",
-    "@sanity/core": "^2.23.2",
-    "@sanity/default-layout": "^2.23.2",
-    "@sanity/default-login": "^2.23.2",
-    "@sanity/desk-tool": "^2.23.2",
-    "@sanity/vision": "^2.23.2",
-    "prop-types": "^15.7",
-    "react": "^17.0",
-    "react-dom": "^17.0",
+    "@sanity/vision": "^3.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "sanity": "^3.8.1",
     "styled-components": "^5.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^2.0.1",
+    "@types/react": "^18.0.25",
+    "@types/styled-components": "^5.1.26",
+    "eslint": "^8.6.0",
+    "prettier": "^2.8.4"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^2.0.9"
+  }
 }

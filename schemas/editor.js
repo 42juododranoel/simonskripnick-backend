@@ -43,6 +43,11 @@ export default {
       type: 'code',
     },
     {
+      name: 'tweet',
+      title: 'Tweet',
+      type: 'tweet',
+    },
+    {
       type: 'image',
     },
   ],
