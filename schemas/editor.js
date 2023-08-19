@@ -48,7 +48,9 @@ export default {
       type: 'tweet',
     },
     {
-      type: 'image',
+      name: 'illustration',
+      type: 'illustration',
+      title: 'Illustration',
     },
   ],
 }

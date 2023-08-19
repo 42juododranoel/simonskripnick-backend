@@ -10,6 +10,7 @@ import category from './blog/category'
 import label from './blog/label'
 import code from './embeds/code'
 import tweet from './embeds/tweet'
+import illustration from './embeds/illustration'
 
 export const schemaTypes = [
   editor,
@@ -24,4 +25,5 @@ export const schemaTypes = [
   label,
   code,
   tweet,
+  illustration,
 ]
