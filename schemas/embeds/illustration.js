@@ -13,5 +13,10 @@ export default {
             name: 'description',
             type: 'text',
         },
+        {
+            title: 'Is spoiler',
+            name: 'isSpoiler',
+            type: 'boolean',
+        }
     ]
 }
