@@ -35,5 +35,10 @@ export default {
       title: 'Background',
       type: 'image',
     },
+    {
+      name: 'backgroundColor',
+      title: 'Background Color',
+      type: 'string',
+    },
   ],
 }
